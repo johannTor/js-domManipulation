@@ -1,0 +1,16 @@
+Question asking app
+10 questions
+10 seconds to answer each one
+Points given for correct answers
+*loading screen after game finishes to calculate points, then show result page with all answers and questions*
+
+
+* = Must have
+'' = good to have
+Use Event listeners to add interactivity in the application*
+Add an option to bring the application to the initial state (without reloading the page)* (restart feature)
+Display a clock or timer on the screen (use setInterval)*
+At least one page should be available*
+Website should be styled with CSS*
+Use a few animations made with CSS transitions (use of JS to control them encouraged)'' (maybe in the result screen)
+Display a loading screen for a couple seconds using setTimeout'' (maybe for the result screen()

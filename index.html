@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>QuizApp</h1>
+    <!-- ToDo: move the descr text to left and put display none after? -->
+    <h2 id="app-descr" class="app-descr">10 questions. 10 seconds for each one. Good luck!</h2>
+    <button type="button" class="begin-button" id="start-btn">Start!</button>
+    <div id="question-text" class="question-text">
+        <p id="question-paragraph"></p>
+    </div>
+    <div id="question-countdown" class="question-countdown">
+    </div>
+    <div id="question-answers" class="question-answers">
+        <div class='button-container'>
+            <button type="button" id="option-1" data-answer=""></button>
+            <button type="button" id="option-2" data-answer=""></button>
+            <button type="button" id="option-3" data-answer=""></button>
+        </div>
+    </div>
+    <div id="scoreboard" class="scoreboard">
+        <p id="scoreboard-text"></p>
+        <p id="scoreboard-recap">
+        </p>
+        <button type="button" id="restart-btn">Restart</button>
+    </div>
+    <script src="js/Question.js"></script>
+    <script src="js/cssFunctions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
